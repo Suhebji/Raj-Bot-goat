@@ -45,7 +45,7 @@ config: {
        };
 
        if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Admin kon hai")) {
-         return api.sendMessage("[𝐎𝐖𝐍𝐄𝐑:☞➸⃝🐼⃝⃞⃟R💙🇦𝑱🎸 ☜ \n🙂 \n. 𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- https://www.facebook.com/profile.php?id=100085303477541", threadID);
+         return api.sendMessage("[𝐎𝐖𝐍𝐄𝐑:☞➸⃝🐼⃝⃞⃟𝐒𝐔𝐇𝐄𝐁🎸 ☜ \n🙂 \n. 𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- https://www.facebook.com/share/18yJEHtPhV/", threadID);
        };
 
       if ((event.body.toLowerCase() == "new movie") || (event.body.toLowerCase() == "latest movie")) {
@@ -216,7 +216,7 @@ config: {
      return api.sendMessage("I Am Raj, An AI Based Messenger Chatbot.", threadID, messageID);
    };
 
-  if (event.body.indexOf("Bot") == 0 || (event.body.toLowerCase() == "bot") || (event.body.indexOf("বট") == 0)) {
+  if (event.body.indexOf("Bot") == 0 || (event.body.toLowerCase() == "bot") || (event.body.indexOf("BOT") == 0)) {
     var msg = {
       body: ` ${rand}`
     }
